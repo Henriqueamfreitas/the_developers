@@ -1,0 +1,35 @@
+.section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+.div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 32.4375rem;
+  gap: .75rem;
+}
+
+.section__span{
+  width: 100%;
+  text-align: center;
+}
+
+.section__h1{
+  text-align: center;
+}
+
+.section__p{
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  .section{
+    padding: 0rem 2rem 5rem 2rem;
+  }
+}

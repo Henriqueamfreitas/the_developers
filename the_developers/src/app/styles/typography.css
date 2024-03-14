@@ -1,0 +1,59 @@
+.title{
+  font-family: var(--font-primary);
+  font-weight: 700;
+}
+
+.title.one{
+  font-size: 2.4063rem;
+}
+
+.title.two{
+  font-size: 1.75rem;
+}
+
+.title.three{
+  font-size: .8125rem;
+}
+
+.title.blue{
+  color: var(--color-blue);
+}
+
+.title.white{
+  color: var(--color-white);
+}
+
+.paragraph{
+  font-family: var(--font-primary);
+  font-weight: 400;
+}
+
+.paragraph.one{
+  font-size: .8313rem;
+}
+
+.paragraph.two{
+  font-size: .7rem;
+}
+
+@media (min-width: 700px) {
+  .title.one{
+    font-size: 3.4375rem;
+  }
+
+  .title.two{
+    font-size: 2.5rem;
+  }
+
+  .title.three{
+    font-size: 1.125rem;
+  }
+
+  .paragraph.one{
+    font-size: 1.1875rem;
+  }
+
+  .paragraph.two{
+    font-size: 1rem;
+  }
+}

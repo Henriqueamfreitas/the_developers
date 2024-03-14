@@ -1,0 +1,35 @@
+.button{
+  border-radius: 15.9375rem;
+  color: var(--color-black);
+  padding: .6rem;
+}
+
+.button.outline{
+  border: solid .0625rem var(--color-black);
+  background-color: var(--color-white);
+  transition: .5s;
+}
+
+.button.outline:hover{
+  border: solid .0625rem var(--color-white);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  transition: .5s;
+}
+
+.button.solid{
+  border: none;
+  background-color: var(--color-yellow);
+  transition: .5s;
+}
+
+.button.solid:hover{
+  background-color: var(--color-yellow-hover);
+  transition: .5s;
+}
+
+@media (min-width: 700px) {
+  .button{
+    padding: 1rem 3rem;
+  }
+}

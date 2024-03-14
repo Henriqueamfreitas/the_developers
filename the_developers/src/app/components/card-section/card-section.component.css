@@ -1,0 +1,23 @@
+li{
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+img{
+  width: 11.875rem;
+  height: 15.8125rem;
+}
+
+@media (min-width: 700px) {
+  li{
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+  }
+
+  img{
+    width: 17rem;
+    height: 22.625rem;
+  }
+}

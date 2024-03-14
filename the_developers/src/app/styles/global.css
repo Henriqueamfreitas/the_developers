@@ -1,0 +1,10 @@
+:root{
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-grey: #FAFAFA;
+  --color-blue: #7E9BFF;
+  --color-yellow: #FDFF88;
+  --color-yellow-hover: #D0DFA5;
+
+  --font-primary: "Inter", sans-serif;
+}

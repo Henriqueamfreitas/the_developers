@@ -1,0 +1,16 @@
+ul{
+  margin: 0rem 1rem;
+  padding: 0rem 0rem 1.5rem 0rem;
+  display: flex;
+  gap: 1rem;
+  overflow-x: scroll;
+}
+
+@media (min-width: 700px) {
+  ul{
+    justify-content: space-between;
+    overflow-x: hidden;
+    gap: 0rem;
+    padding: 0rem 8rem 1.5rem 8rem;
+  }
+}

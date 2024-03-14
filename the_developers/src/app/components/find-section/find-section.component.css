@@ -1,0 +1,35 @@
+section{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem 2rem 2rem;
+  background-color: var(--color-blue);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 32.4375rem;
+  gap: 1.25rem;
+}
+
+.container__h2, .container__p{
+  text-align: center;
+  color: var(--color-white);
+}
+
+@media (min-width: 700px) {
+  section{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem 5rem 2rem;
+    background-color: var(--color-blue);
+  }
+}

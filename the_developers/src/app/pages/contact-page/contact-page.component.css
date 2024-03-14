@@ -1,0 +1,22 @@
+.container__top{
+  background-color: var(--color-black);
+  padding: 1rem;
+}
+
+.container__bottom{
+  background-color: var(--color-grey);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+}
+
+@media (min-width: 700px) {
+  .container__top{
+    background-color: var(--color-black);
+    padding: 3rem 8rem 3rem 8rem;
+  }
+}
