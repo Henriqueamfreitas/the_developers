@@ -1,0 +1,14 @@
+<main>
+  <div>
+    <app-presentation-section></app-presentation-section>
+    <ul>
+      <app-card-section
+        *ngFor="let developer of developerList"
+        [img]="developer.img"
+        [name]="developer.name"
+        [description]="developer.description"
+      ></app-card-section>
+    </ul>
+    <app-find-section></app-find-section>
+  </div>
+</main>
