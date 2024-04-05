@@ -7,10 +7,12 @@ ul{
 }
 
 @media (min-width: 700px) {
+  .container{
+
+    padding: 0rem 8rem 1.5rem 8rem;
+  }
   ul{
     justify-content: space-between;
-    overflow-x: hidden;
-    gap: 0rem;
-    padding: 0rem 8rem 1.5rem 8rem;
+    gap: 1rem;
   }
 }
